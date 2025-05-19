@@ -1,0 +1,14 @@
+PySpark Compression codecs when writing data in different formats (CSV, JSON, TEXT, Parquet):
+
+csv, json, text:
+
+(none, bzip2, gzip, lz4, snappy, deflate)
+(none, bzip2, gzip, lz4, snappy, deflate)
+(none, bzip2, gzip, lz4, snappy, deflate)
+
+parquet:
+
+(none, uncompressed, snappy, gzip, lzo, brotli, lz4, zstd)
+
+-------------------------------------
+
